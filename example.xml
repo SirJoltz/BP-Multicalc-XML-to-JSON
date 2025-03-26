@@ -1,0 +1,226 @@
+<process name="__selection__UK_CP_PCS_CollectorV3">
+    <stage stageid="0d5d1ffc-8422-4690-9f37-e8319f0d4a03" name="Cast Info"
+        type="MultipleCalculation">
+        <subsheetid>a5555e12-73c6-469e-9e8b-c38c22279bb2</subsheetid>
+        <loginhibit onsuccess="true" />
+        <display x="270" y="1680" />
+        <font family="Tahoma" size="10" style="Regular" color="000000" />
+        <steps>
+            <calculation expression="[cItemData.Request Type (Select)]"
+                stage="cRowsToAdd.Request Type (Select)" />
+            <calculation expression="[cItemData.Mobile Number]" stage="cRowsToAdd.Mobile Number" />
+            <calculation expression="[cItemData.SIM Number]" stage="cRowsToAdd.SIM Number" />
+            <calculation expression="[cItemData.Full Bar                    (Add/Remove or N/A)]"
+                stage="cRowsToAdd.Full Bar                    (Add/Remove or N/A)" />
+            <calculation expression="[cItemData.GPRS Bar                    (Add/Remove or N/A)]"
+                stage="cRowsToAdd.GPRS Bar                    (Add/Remove or N/A)" />
+            <calculation expression="[cItemData.IMEI Bar                    (Add/Remove or N/A)]"
+                stage="cRowsToAdd.IMEI Bar                    (Add/Remove or N/A)" />
+            <calculation expression="[cItemData.Roaming Bar                    (Add/Remove or N/A)]"
+                stage="cRowsToAdd.Roaming Bar                    (Add/Remove or N/A)" />
+            <calculation expression="[cItemData.Username]" stage="cRowsToAdd.Username" />
+            <calculation expression="[cItemData.Cost Centre]" stage="cRowsToAdd.Cost Centre" />
+            <calculation expression="[cItemData.Contract Term]" stage="cRowsToAdd.Contract Term" />
+            <calculation expression="[cItemData.Contract Number]" stage="cRowsToAdd.Contract Number" />
+            <calculation expression="[cItemData.Tariff Code]" stage="cRowsToAdd.Tariff Code" />
+            <calculation expression="[cItemData.Package Code]" stage="cRowsToAdd.Package Code" />
+            <calculation expression="[cItemData.Type Of Handset]" stage="cRowsToAdd.Type Of Handset" />
+            <calculation expression="[cItemData.Parent MPN/Agreement Number To Be Linked]"
+                stage="cRowsToAdd.Parent MPN/Agreement Number To Be Linked" />
+            <calculation expression="[cItemData.Add Additional Service (Separate by comma)]"
+                stage="cRowsToAdd.Add Additional Service (Separate by comma)" />
+            <calculation expression="[cItemData.Remove Additional Service (Separate by comma)]"
+                stage="cRowsToAdd.Remove Additional Service (Separate by comma)" />
+            <calculation expression="[cItemData.PAC/STAC Code]" stage="cRowsToAdd.PAC Code" />
+            <calculation expression="[cItemData.Port/STAC Date]" stage="cRowsToAdd.Port Date" />
+            <calculation expression="[cItemData.BCAD Reference Number]"
+                stage="cRowsToAdd.BCAD Reference Number" />
+            <calculation expression="[cItemData.BCAD Discount Amount (internal use only)]"
+                stage="cRowsToAdd.BCAD Discount Amount" />
+            <calculation expression="[cItemData.BCAD End Date (internal use only)]"
+                stage="cRowsToAdd.BCAD End Date" />
+            <calculation expression="[cItemData.FIN Code]" stage="cRowsToAdd.FIN Code" />
+            <calculation expression="[cItemData.Corporate ID]" stage="cRowsToAdd.Corporate ID" />
+            <calculation expression="[cItemData.PBX]" stage="cRowsToAdd.PBX" />
+            <calculation expression="[cItemData.Extension]" stage="cRowsToAdd.Extension" />
+            <calculation expression="[cItemData.Private APNS]" stage="cRowsToAdd.Private APNS" />
+            <calculation expression="[cItemData.IMEI]" stage="cRowsToAdd.IMEI" />
+            <calculation expression="[cItemData.Over 18 Content Bar (Add/Remove)]"
+                stage="cRowsToAdd.Over 18 Content Bar (Add/Remove)" />
+            <calculation expression="[cItemData.SIM Refresh]" stage="cRowsToAdd.SIM Refresh" />
+            <calculation expression="[cItemData.DMG Report Type]" stage="cRowsToAdd.DMG Report Type" />
+            <calculation expression="[cItemData.Upgrade Eligibility Check (Yes/No)]"
+                stage="cRowsToAdd.Upgrade Eligibility Check (Yes/No)" />
+            <calculation expression="[cItemData.Disconnection (Yes/No)]"
+                stage="cRowsToAdd.Disconnection (Yes/No)" />
+            <calculation expression="[cItemData.Destination Account Number]"
+                stage="cRowsToAdd.Destination Account Number" />
+            <calculation expression="[cItemData.Temporary Number]"
+                stage="cRowsToAdd.Temporary Number" />
+            <calculation
+                expression="[cItemData.New Billing Date                               (DD will be taken 14/30 days from this date according to the customers payment terms)]"
+                stage="cRowsToAdd.New Direct Debit Date" />
+            <calculation expression="[cItemData.Tariff Description]"
+                stage="cRowsToAdd.Tariff Description" />
+            <calculation expression="[cItemData.Data amount]" stage="cRowsToAdd.Data amount" />
+            <calculation expression="[cItemData.Minimum contract length]"
+                stage="cRowsToAdd.Minimum contract length" />
+            <calculation expression="[cItemData.Data Description]"
+                stage="cRowsToAdd.Data Description" />
+            <calculation expression="[cItemData.Prices]" stage="cRowsToAdd.Prices" />
+            <calculation expression="[cItemData.Services]" stage="cRowsToAdd.Services" />
+            <calculation expression="[cItemData.Received DateTime]"
+                stage="cRowsToAdd.Received Date/Time" />
+            <calculation expression="[cItemData.Original Defer Datetime]"
+                stage="cRowsToAdd.Original Defer Datetime" />
+            <calculation expression="[cItemData.Item Key]" stage="cRowsToAdd.Item Key" />
+            <calculation expression="[cItemData.Partner Name]" stage="cRowsToAdd.Partner Name" />
+            <calculation expression="[cItemData.Partner Code]" stage="cRowsToAdd.Partner Code" />
+            <calculation expression="[cItemData.Partner Password]"
+                stage="cRowsToAdd.Partner Password" />
+            <calculation expression="[cItemData.EServe Number]" stage="cRowsToAdd.E-Serve Number" />
+            <calculation expression="[cItemData.Number Of Actions On Form]"
+                stage="cRowsToAdd.Number Of Actions On Form" />
+            <calculation expression="[cItemData.New Created Account]"
+                stage="cRowsToAdd.New Created Account" />
+            <calculation expression="[cItemData.Customer Email Address]"
+                stage="cRowsToAdd.Customer Email Address" />
+            <calculation expression="[cItemData.Requested By]" stage="cRowsToAdd.Requested By" />
+            <calculation expression="[cItemData.Partner Email Address]"
+                stage="cRowsToAdd.Form E-Mail Address" />
+            <calculation expression="[cItemData.Customer Name]" stage="cRowsToAdd.Customer Name" />
+            <calculation expression="[cItemData.Address Line 1]"
+                stage="cRowsToAdd.Form Address Line 1" />
+            <calculation expression="[cItemData.Address Line 2]"
+                stage="cRowsToAdd.Form Address Line 2" />
+            <calculation expression="[cItemData.Address Line 3]"
+                stage="cRowsToAdd.Form Address Line 3" />
+            <calculation expression="[cItemData.Address Line 4]"
+                stage="cRowsToAdd.Form Address Line 4" />
+            <calculation expression="[cItemData.Address Line 5]"
+                stage="cRowsToAdd.Form Address Line 5" />
+            <calculation expression="[cItemData.Sender Email Address]"
+                stage="cRowsToAdd.Sender Email Address" />
+            <calculation expression="[cItemData.Contract End Date As A Date]"
+                stage="cRowsToAdd.Contract End Date As A Date" />
+            <calculation expression="[cItemData.Post Code]" stage="cRowsToAdd.Post Code" />
+            <calculation expression="[cItemData.Account Number]" stage="cRowsToAdd.Account Number" />
+            <calculation expression="[cItemData.Group Code]" stage="cRowsToAdd.Group Code" />
+            <calculation expression="[cItemData.Credit Vet Ref]" stage="cRowsToAdd.Credit Vet Ref" />
+            <calculation expression="[cItemData.Payment Method]" stage="cRowsToAdd.Payment Method" />
+            <calculation expression="[cItemData.Bank Account Number]"
+                stage="cRowsToAdd.Bank Account Number" />
+            <calculation expression="[cItemData.Sort Code]" stage="cRowsToAdd.Sort Code" />
+            <calculation expression="[cItemData.Name Of Payer]" stage="cRowsToAdd.Name Of Payer" />
+            <calculation expression="[cItemData.Contract End Date As A Date]"
+                stage="cRowsToAdd.Contract End Date As A Date" />
+            <calculation expression="[cItemData.Current Contract Reference]"
+                stage="cRowsToAdd.Current Contract Reference" />
+            <calculation expression="[cItemData.Current Contract Start]"
+                stage="cRowsToAdd.Current Contract Start" />
+            <calculation expression="[cItemData.Current Contract Term]"
+                stage="cRowsToAdd.Current Contract Term" />
+            <calculation expression="[cItemData.Current User Name]"
+                stage="cRowsToAdd.Current User Name" />
+            <calculation expression="[cItemData.Current Cost Centre]"
+                stage="cRowsToAdd.Current Cost Centre" />
+            <calculation expression="[cItemData.Current Tariff Code]"
+                stage="cRowsToAdd.Current Tariff Code" />
+            <calculation expression="[cItemData.Current Package Code]"
+                stage="cRowsToAdd.Current Package Code" />
+            <calculation expression="[cItemData.Sub Number Type]" stage="cRowsToAdd.Sub Number Type" />
+            <calculation expression="[cItemData.Current SIM Number]"
+                stage="cRowsToAdd.Current SIM Number" />
+            <calculation expression="[cItemData.Current Mobex Details]"
+                stage="cRowsToAdd.Current Mobex Details" />
+            <calculation expression="[cItemData.Last Deferral Reason]"
+                stage="cRowsToAdd.Last Deferral Reason" />
+            <calculation expression="[cItemData.Unlatching Instructions]"
+                stage="cRowsToAdd.Unlatching Instructions" />
+            <calculation expression="[cItemData.SMP Balance]" stage="cRowsToAdd.SMP Balance" />
+            <calculation expression="[cItemData.BCADLineDiscountAmount]"
+                stage="cRowsToAdd.BCADLineDiscountAmount" />
+            <calculation expression="[cItemData.BCADLineDiscountEndDate]"
+                stage="cRowsToAdd.BCADLineDiscountEndDate" />
+            <calculation expression="[cItemData.BCADDataDiscountAmount]"
+                stage="cRowsToAdd.BCADDataDiscountAmount" />
+            <calculation expression="[cItemData.BCADDataDiscountEndDate]"
+                stage="cRowsToAdd.BCADDataDiscountEndDate" />
+            <calculation expression="[cItemData.Donor Network]" stage="cRowsToAdd.Donor Network" />
+            <calculation expression="[cItemData.Scheduled Port Date]"
+                stage="cRowsToAdd.Scheduled Port Date" />
+            <calculation expression="[cItemData.Handset Make]" stage="cRowsToAdd.Handset Make" />
+            <calculation expression="[cItemData.Handset Model]" stage="cRowsToAdd.Handset Model" />
+            <calculation expression="[cItemData.Reported Fault]" stage="cRowsToAdd.Reported Fault" />
+            <calculation expression="[cItemData.Delivery Name]" stage="cRowsToAdd.Delivery Name" />
+            <calculation expression="[cItemData.Delivery Address Line 1]"
+                stage="cRowsToAdd.Delivery Address Line 1" />
+            <calculation expression="[cItemData.Delivery Address Line 2]"
+                stage="cRowsToAdd.Delivery Address Line 2" />
+            <calculation expression="[cItemData.Delivery Address Line 3]"
+                stage="cRowsToAdd.Delivery Address Line 3" />
+            <calculation expression="[cItemData.Delivery Address Line 4]"
+                stage="cRowsToAdd.Delivery Address Line 4" />
+            <calculation expression="[cItemData.Delivery Address Line 5]"
+                stage="cRowsToAdd.Delivery Address Line 5" />
+            <calculation expression="[cItemData.Delivery Post Code]"
+                stage="cRowsToAdd.Delivery Post Code" />
+            <calculation expression="[cItemData.Delivery Telephone Number]"
+                stage="cRowsToAdd.Delivery Telephone Number" />
+            <calculation expression="[cItemData.Address Line 1]"
+                stage="cRowsToAdd.New Address Line 1" />
+            <calculation expression="[cItemData.Address Line 2]"
+                stage="cRowsToAdd.New Address Line 2" />
+            <calculation expression="[cItemData.Address Line 3]"
+                stage="cRowsToAdd.New Address Line 3" />
+            <calculation expression="[cItemData.Address Line 4]"
+                stage="cRowsToAdd.New Address Line 4" />
+            <calculation expression="[cItemData.Address Line 5]"
+                stage="cRowsToAdd.New Address Line 5" />
+            <calculation expression="[cItemData.Post Code]" stage="cRowsToAdd.New Post Code" />
+            <calculation expression="[cItemData.Bespoke Tariff]" stage="cRowsToAdd.Bespoke Tariff" />
+            <calculation expression="[cItemData.Add Bar]" stage="cRowsToAdd.Add Bar" />
+            <calculation expression="[cItemData.Remove Bar]" stage="cRowsToAdd.Remove Bar" />
+            <calculation expression="&quot;&quot;" stage="cRowsToAdd.Anovo Handset Info" />
+            <calculation expression="&quot;&quot;" stage="cRowsToAdd.Disconnection Date" />
+            <calculation expression="&quot;&quot;" stage="cRowsToAdd.Handset Size" />
+            <calculation expression="&quot;&quot;" stage="cRowsToAdd.Adult &amp; Chat Bars" />
+            <calculation expression="&quot;&quot;" stage="cRowsToAdd.Stolen Bar" />
+            <calculation expression="&quot;&quot;"
+                stage="cRowsToAdd.International &amp; Premium Bar" />
+            <calculation expression="&quot;&quot;" stage="cRowsToAdd.Premium Rate Call Bar" />
+            <calculation expression="&quot;&quot;" stage="cRowsToAdd.Limited Roam By Default" />
+            <calculation expression="&quot;&quot;" stage="cRowsToAdd.International Call Bar" />
+            <calculation expression="&quot;&quot;" stage="cRowsToAdd.Outgoing Call Bar" />
+            <calculation expression="&quot;&quot;" stage="cRowsToAdd.Int/Premium/Roam Bar" />
+            <calculation expression="&quot;&quot;" stage="cRowsToAdd.High Usage Bar" />
+            <calculation expression="[cItemData.Contact Telephone Number]"
+                stage="cRowsToAdd.Contact Telephone Number" />
+            <calculation expression="[cItemData.Spend Cap (Amount)]"
+                stage="cRowsToAdd.Spend Cap (Amount)" />
+            <calculation expression="[cItemData.Spend Cap (In/Out)]"
+                stage="cRowsToAdd.Spend Cap (In/Out)" />
+            <calculation expression="[cItemData.Number Of Employees]"
+                stage="cRowsToAdd.Number of Employees" />
+            <calculation expression="[cItemData.Accessible Contract]"
+                stage="cRowsToAdd.Accessible Contract" />
+            <calculation expression="[cItemData.Accessible Service Notification]"
+                stage="cRowsToAdd.Accessible Service Notification" />
+            <calculation expression="[cItemData.Accessible Billing And Collections]"
+                stage="cRowsToAdd.Accessible Billing and Collections" />
+            <calculation expression="[cItemData.updateTime]" stage="cRowsToAdd.updateTime" />
+            <calculation expression="[cItemData.environment]" stage="cRowsToAdd.environment" />
+            <calculation expression="[cItemData.sessionID]" stage="cRowsToAdd.sessionID" />
+            <calculation expression="[cItemData.processName]" stage="cRowsToAdd.processName" />
+            <calculation expression="[cItemData.exceptionCode]" stage="cRowsToAdd.exceptionCode" />
+            <calculation expression="[cItemData.exceptionType]" stage="cRowsToAdd.exceptionType" />
+            <calculation expression="[cItemData.exceptionDetail]" stage="cRowsToAdd.exceptionDetail" />
+            <calculation expression="[cItemData.statistic]" stage="cRowsToAdd.statistic" />
+            <calculation expression="[cItemData.Finished]" stage="cRowsToAdd.Finished" />
+            <calculation expression="[cItemData.EndDate]" stage="cRowsToAdd.EndDate" />
+            <calculation expression="[cItemData.executionTime]" stage="cRowsToAdd.executionTime" />
+            <calculation expression="[cItemData.StartDate]" stage="cRowsToAdd.StartDate" />
+            <calculation expression="[cItemData.Reported]" stage="cRowsToAdd.Reported" />
+        </steps>
+    </stage>
+</process>
